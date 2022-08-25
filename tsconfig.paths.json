@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "types": [
-        "../todo-back/src/types"
+        "../TodoBack/src/types"
       ]
     }
   }
