@@ -1,12 +1,13 @@
 import React from 'react';
-import { test } from 'types';
-
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import { NotFoundPageView } from './views/NotFoundView';
+import { LoginView } from './views/LoginView';
 
 export const App = () => {
-    const x: test = 3;
-
     return (
-        <h1>Test</h1>
+        <Routes>
+            <Route path="/" element={<LoginView/>}/>
+            <Route path="/*" element={<NotFoundPageView/>}/>
+        </Routes>
     );
 };
