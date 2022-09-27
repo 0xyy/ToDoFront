@@ -1,4 +1,4 @@
 import React from 'react';
-import { Login } from '../layout/Login/Login';
+import { LoginForm } from '../components/layout/LoginForm/LoginForm';
 
-export const LoginView = () => <Login/>;
+export const LoginView = () => <LoginForm/>;
