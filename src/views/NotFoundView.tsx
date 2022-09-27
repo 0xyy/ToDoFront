@@ -1,4 +1,4 @@
 import React from 'react';
-import { NotFoundPage } from '../layout/NotFoundPage/NotFoundPage';
+import { NotFoundPage } from '../components/layout/NotFoundPage/NotFoundPage';
 
 export const NotFoundPageView = () => <NotFoundPage/>;
