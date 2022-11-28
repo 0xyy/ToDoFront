@@ -1,0 +1,11 @@
+.link {
+    font-style: italic;
+    text-decoration: underline;
+    transition: .3s color;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.link:hover {
+    color: #007f5f;
+}
