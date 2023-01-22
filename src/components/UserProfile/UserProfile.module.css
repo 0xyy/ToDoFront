@@ -1,0 +1,52 @@
+.box {
+    width: 1150px;
+    /*height: 500px;*/
+    padding: 25px;
+}
+
+.box img {
+    width: 40%;
+    margin-right: 10px;
+    /*background: bisque;*/
+}
+
+.textBox {
+    padding-left: 15px;
+    width: 100%;
+    /*background: aqua;*/
+}
+
+.textBox h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.textBox p {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.textBox ul {
+    opacity: 60%;
+}
+
+.textBox li {
+    margin-bottom: 12px;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.textBox button {
+    width: 100%;
+    border: 2px solid #007f5f;
+    background: #007f5f;
+    border-radius: 10px;
+    padding: 4px;
+    color: #fff;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
