@@ -8,15 +8,15 @@ export const MainNavigation = () => {
         <div className={styles.logo}>DO IT NOW!</div>
         <nav>
             <ul>
-                <li>
-                    <Link to='/login'>Log in</Link>
-                </li>
-                <li>
-                    <Link to='/register'>Sign up</Link>
-                </li>
                 {/*<li>*/}
-                {/*    <button>Logout</button>*/}
+                {/*    <Link to='/auth'>Log in</Link>*/}
                 {/*</li>*/}
+                {/*<li>*/}
+                {/*    <Link to='/register'>Sign up</Link>*/}
+                {/*</li>*/}
+                <li>
+                    <button>Logout</button>
+                </li>
             </ul>
         </nav>
     </header>
