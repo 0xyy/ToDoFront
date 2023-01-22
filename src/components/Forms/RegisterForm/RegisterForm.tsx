@@ -1,8 +1,8 @@
 import React from 'react';
+import { NavigationLink } from '../../UI/NavigationLink';
 
 import register from '../../../assets/register.svg';
 import styles from './RegisterForm.module.css';
-import { NavigationLink } from '../../UI/NavigationLink';
 
 export const RegisterForm = () => {
     return <div className={`${styles.box} card`}>
@@ -22,7 +22,7 @@ export const RegisterForm = () => {
                     <input type="password" name="repeatedPassword" placeholder="Repeated password"/>
                 </label>
                 <button>Create account</button>
-                <p><NavigationLink text='Return to home page' to='/'/></p>
+                <p><NavigationLink text='Back to home page' to='/'/></p>
             </form>
             <img src={register} alt="Register image"/>
         </div>
