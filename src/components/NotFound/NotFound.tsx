@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationLink } from '../UI/NavigationLink';
+import { NavigationLink } from '../UI/NavigationLink/NavigationLink';
 
 import notFound from '../../assets/not-found.svg';
 import styles from './NotFound.module.css';
