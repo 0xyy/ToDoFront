@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavigationLink } from '../../UI/NavigationLink';
+import { NavigationLink } from '../../UI/NavigationLink/NavigationLink';
 
-import register from '../../../assets/register.svg';
+import registerImg from '../../../assets/register.svg';
 import styles from './RegisterForm.module.css';
 
 export const RegisterForm = () => {
@@ -24,7 +24,7 @@ export const RegisterForm = () => {
                 <button>Create account</button>
                 <p><NavigationLink text='Back to home page' to='/'/></p>
             </form>
-            <img src={register} alt="Register image"/>
+            <img src={registerImg} alt="Register image"/>
         </div>
     </div>;
 };
