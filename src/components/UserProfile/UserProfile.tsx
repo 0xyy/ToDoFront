@@ -1,14 +1,11 @@
 import React from 'react';
 
-import welcome from '../../assets/welcome.svg';
+import welcomeImg from '../../assets/welcome.svg';
 import styles from './UserProfile.module.css';
 
 export const UserProfile = () => {
-
-
-
     return <div className={`${styles.box} card`}>
-        <img src={welcome} alt="Welcome cats image"/>
+        <img src={welcomeImg} alt="Welcome cats image"/>
         <div className={styles.textBox}>
             <h1>Hello, Tommy</h1>
             <p>Nice to see you, here is a mini guide:</p>

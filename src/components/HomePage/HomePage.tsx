@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavigationLink } from '../UI/NavigationLink';
+import { NavigationLink } from '../UI/NavigationLink/NavigationLink';
 
-import checkListDone from '../../assets/check-list-done.svg';
+import checkListDoneImg from '../../assets/check-list-done.svg';
 import styles from './HomePage.module.css';
 
 export const HomePage = () => {
@@ -13,6 +13,6 @@ export const HomePage = () => {
                 ARE YOU IN? LET'S START FOR FREE BY <NavigationLink text='CREATING YOUR ACCOUNT' to='/register'/>
             </p>
         </div>
-        <img src={checkListDone} alt="Check list done image"/>
+        <img src={checkListDoneImg} alt="Check list done image"/>
     </div>;
 };
